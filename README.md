@@ -2,6 +2,7 @@
 
 ## Project Overview  
 This academic project uses this [Kaggle dataset](https://www.kaggle.com/datasets/parisrohan/credit-score-classification)  of 50,000 records to create a model for a global financial institution capable of classifying customers into different credit scores (Poor, Standard, Good). The model replaces manual risk assessment with automated solutions while prioritizing sensitivity in high-risk ("Poor") classifications.
+
 To use it: run the data_cleaning first and then you can try running the different split strategies for the models :)
 
 ## Methodology  
