@@ -8,8 +8,7 @@ To use it: run the data_cleaning first and then you can try running the differen
 1. **Data Understanding**:  
    - Analyzed 28 variables including financial behavior, debt patterns, and payment history  
 2. **Data Preparation**:  
-   - Outlier treatment (e.g., age range 14-56 validation)  
-   - Ethical feature selection (removed SSN/Name)  
+   - Outlier treatment (e.g., age range 14-56 validation) 
    - Imputation: Forward-Backward Fill + Average Fill
    -  **Split Strategies**:  
        1. **Random Sets** (66.6% train / 33.3% test)  
