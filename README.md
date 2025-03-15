@@ -10,16 +10,17 @@ To use it: run the data_cleaning first and then you can try running the differen
 2. **Data Preparation**:  
    - Outlier treatment (e.g., age range 14-56 validation) 
    - Imputation: Forward-Backward Fill + Average Fill
+   - Feature Engineering
    -  **Split Strategies**:  
        1. **Random Sets** (66.6% train / 33.3% test)  
        2. **Stratified Sets** (preserved class distribution)  
        3. **Random with undersampling** (balanced Poor/Standard/Good ratios)
-3. **Modeling**:  
--    - Tested 4 approaches with 3 data split strategies:  
-     - Logistic Regression  
-     - Random Forest 
-     - Neural Networks (MLP architectures)  
-     - KNN 
+3. **Modeling**:
+   - Tested 4 approaches with 3 data split strategies:  
+   - Logistic Regression  
+   - Random Forest 
+   - Neural Networks (MLP architectures)  
+   - KNN 
 
 ## Tools & Libraries  
 - R  
@@ -27,6 +28,6 @@ To use it: run the data_cleaning first and then you can try running the differen
 - Libraries: `caret`, `randomForest`, `nnet`, `rpart`, `ggplot2`, `corrplot`
 
 ## Results  
-This project tested 116 different model configurations across three sampling strategies to identify the optimal approach for automating risk assessment. After extensive experimentation, the Random Forest with cross-validation consistently delivered superior performance, achieving 85% test accuracy with random sampling, 78% with stratified sampling, and 67% with downsampling.
+This project tested 116 different model configurations across three sampling strategies to identify the optimal approach for automating risk assessment. After extensive experimentation, the Random Forest with cross-validation consistently delivered superior performance, achieving 85% test accuracy with random sampling, 73% with stratified sampling, and 80% with downsampling.
 
 ![image](https://github.com/user-attachments/assets/af909e12-65c8-48e2-9536-fe898ccc5bb1)
